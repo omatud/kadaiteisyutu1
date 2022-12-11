@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  height: 50px;
+  background-color: #ff9A4B
+}
+
+main{
+  width: 960px;
+  margin:0 auto;
+  padding: 50px 0;
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.step-box{
+  width: 300px;
+  background-color: #eeeeee;
+  margin-right:30px;
+}
+.step-box:nth-child(3){
+  margin-right:0;
+}
+.step-img1{
+  background-image: url(img/flow01.png);
+  height: 150px;
+  background-position:bottom;
+  background-size:cover;
+  margin: 10px 10px 10px 10px;
+}
+
+.step-img2{
+  background-image: url(img/flow02.png);
+  height: 150px;
+  background-position: bottom;
+  background-size:cover;
+  margin: 10px 10px 10px 10px;
+}
+
+.step-img3{
+  background-image: url(img/flow03.png);
+  height: 150px;
+  background-position: bottom;
+  background-size: cover;
+  margin: 10px 10px 10px 10px;
+}
+
+.step-num{
+  background-color: #ff9a4b;
+  color: #fff;
+  position: absolute;
+  
+}
+
+.title{
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+footer{
+  width: 100%;
+  height: 50px;
+  background-color: #AAAAAA
+}
